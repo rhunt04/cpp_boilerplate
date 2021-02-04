@@ -1,3 +1,7 @@
+/*
+ * Copyright 2020 R. J. Hunt.
+ */
+
 #include "classes/client.h"
 #include "classes/handler.h"
 
@@ -9,8 +13,6 @@ Client *client1 = new Client("Client 1");
 Client *client2 = new Client("Client 2");
 
 int main(void) {
-
-
   bigBossMan->addClient(client1);
   bigBossMan->addClient(client2);
 
@@ -30,5 +32,4 @@ int main(void) {
   delete client2;
 
   return 0;
-
 }
