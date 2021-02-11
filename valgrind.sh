@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Shell script for calling valgrind with my favourite options on
-# ./build/binaries/main.
+# ./build*/bin/main.
 
 # Requires valgrind...!
 command -v valgrind >/dev/null 2>&1 ||
