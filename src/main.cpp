@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 R. J. Hunt.
+ * 2020 RJH
  */
 
 #include "classes/client.h"
