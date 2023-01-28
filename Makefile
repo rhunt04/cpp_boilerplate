@@ -57,5 +57,6 @@ clean:
 
 vclean:
 	-@rm -rvf $(BUILD)
+	-@rm -rvf valgrind-out.txt
 
 remake: vclean all
